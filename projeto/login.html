@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/login.css">
+</head>
+<body>
+
+<img src="assets/logo.png" class="icone">
+    <main class="loginContainer"> 
+
+        <nav class="menu">   
+            <a href="../index.php">        <input type="button" value="Home page"> </a> 
+            <a href="promos.php"><input type="button" value="Catálogo de promoções"> </a>
+            <a href="sobre.php">     <input type="button" value="Sobre nós"> </a>
+        </nav>
+        
+        <section class="inputs-Container">
+           <form action="sessions ini.php" method="POST">
+                <div class="loginInp">
+                    <input type="email" name="email" id="email" 
+                    placeholder="Digite o seu email" required>
+                </div>
+            
+                <div class="loginInp">
+                    <input type="password" name="senha" id="senha"
+                    placeholder="Digite a senha" required>
+                </div>
+
+                <div class="loginInp">
+                    <input type="submit" name="submit"
+                    value="Conectar">
+                </div>
+            </form>
+            
+            <div class="visivel">Conta de admin: email( mymy_Plushop@gmail.com ) e senha ( senha )</div><br>
+
+            <div class="visivel">
+                Não tem conta?
+                <a href="cadastro.html">
+                    <button class="button">registre-se clicando aqui</button> 
+                </a>
+            </div>
+            
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Noto Serif', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffe66d;
+    color: rgb(255, 255, 255);
+}
+
+.icone{ 
+    width: 7vh;
+    height: 7vh;
+    margin: 2rem;
+}
+
+.menu{ 
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    height: 8vh;
+    font-size: 2rem;
+    background-color: #ff6b6b;
+}
+
+.menu input[type="button"]{
+    width: 3fr;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    color: #f3ebeb;
+    background-color: #ff6b6b;
+    transition: cubic-bezier(0.23, 1, 0.55, 1) 750ms;
+}
+
+.menu input[type="button"]:hover{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+a{text-decoration: none}
+
+.container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 0 0 30% 30%;
+}
+
+.about{
+    margin-top: 1vh;
+    padding: 3rem ;
+    height: 10vh;
+    width: 70%;
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: #2f2f2f double 0.7vh;
+    text-align: center;
+}
+
+.us{
+    margin: 1vh 0 20vh 0 ;
+    width: 60%;
+    height: 60%;
+    font-size: 3rem;
+    font-weight: 500; 
+    text-align: justify;
+}
+
+.us p{
+    margin: 1.5rem;
+}
+
+footer{padding: 20vh}

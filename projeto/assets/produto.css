@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Noto Serif', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffe66d;
+    color: rgb(255, 255, 255);
+}
+
+.icone{ 
+    width: 7vh;
+    height: 7vh;
+    margin: 2rem;
+}
+
+.menu{ 
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70vw;
+    height: 8vh;
+    font-size: 2rem;
+    background-color: #ff6b6b;
+}
+
+.menu input[type="button"]{
+    width: 3fr;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    color: #f3ebeb;
+    background-color: #ff6b6b;
+    transition: cubic-bezier(0.23, 1, 0.55, 1) 750ms;
+}
+
+.menu input[type="button"]:hover{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+a{text-decoration: none}
+
+.main{
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    background-color: white;
+    color: black;
+    border-radius: 10px 10px 30% 30%;
+}
+
+.main #cont .nomeepreco{
+    text-align: center;
+    margin: 1.5vh;
+    font-size: 2rem;
+}
+
+#imagemprod{
+    margin: 7vh 0 1.5vh;
+    height: 52vh;
+    width: 42vh;
+}
+
+#prodind{
+    width: 42vh;
+    height: 5vh;
+    color: #ff6b6b;
+    background-color: #ececec;    
+    border: solid 5px #ff6b6b;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 4%;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 450ms;
+}
+
+#prodind:hover, #prodind:focus{
+    width: 42vh;
+    height: 5vh;
+    color: #ececec;
+    background-color: #ff6b6b;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 4%;
+    letter-spacing: 1rem;
+}
+
+footer{
+    height: 7vh;
+}

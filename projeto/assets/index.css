@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Noto Serif', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffe66d;
+    color: rgb(255, 255, 255);
+}
+
+.icone{ 
+    width: 7rem;
+    height: 7rem;
+    margin: 2rem;
+}
+
+.menu{ 
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    height: 8vh;
+    font-size: 2rem;
+    background-color: #ff6b6b;
+}
+
+.menu input[type="button"]{
+    width: 3fr;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    color: #f3ebeb;
+    background-color: #ff6b6b;
+    transition: cubic-bezier(0.23, 1, 0.55, 1) 750ms;
+}
+
+.menu input[type="button"]:hover{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+a{text-decoration: none}
+
+.main{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+    border-radius: 10px 10px 30vh 30vh;
+    padding-bottom: 10vh;
+}
+
+.produto{
+    background-color: rgb(255, 255, 255);
+    width:  25vh;
+    height: 37vh;
+    font-size: 3vh;
+    padding: 1rem;
+    margin: 2rem;
+    box-shadow: 3px 3px 15px rgba(53, 53, 53, 0.425);
+    transition: ease-out 400ms;
+}
+
+.produto:hover{
+    transform: rotate(-7.5deg);
+}
+
+.produto img{
+    width: 100%;
+    height: 70%;
+}
+
+.produto div{
+    padding: 0.2vh;
+    text-align: center;
+    justify-content: center;
+    color: #ff6b6b;
+}
+
+.produto:first-child{
+    margin-top: 3rem;
+}
+
+.verMais{
+    width: 50%;
+    min-height: 3vh;
+    max-height: 5vh;
+    background-color: #ececec;
+    color: #ff6b6b;
+    border: #ff6b6b 5px solid;
+    border-radius: 8px;
+    padding: 1vh;
+    margin: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.3vw;
+    cursor: pointer;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1000ms;
+}
+
+.verMais:hover{
+    letter-spacing: 1vw;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-weight: 700;
+}
+
+footer{
+    height: 7vh;
+}
