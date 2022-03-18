@@ -1,6 +1,7 @@
 <?php 
  session_start();
  include_once('arraysFuncoes.php');
+ include_once('inisEVars.php');
  ?>
 
 <!DOCTYPE html>
