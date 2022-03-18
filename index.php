@@ -1,6 +1,7 @@
 <?php 
  session_start();
  include("projeto/arraysFuncoes.php");
+ include("projeto/inisEVars.php");
  ?>
 
 <!DOCTYPE html>
@@ -49,7 +50,7 @@
             
         <?php
         inicializacao();
-        include("projeto/inisEVars.php");
+
         ?>
     </main>
     <footer></footer>
